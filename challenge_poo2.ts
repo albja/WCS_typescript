@@ -1,9 +1,23 @@
 import  assert  from  'assert';
 
 class BankCustomer {
-    private getName(): string;
-    private verifyPinInput(): string;
+    private name: string;
+    private pin: string;
+    constructor(name: string , pin: string) {
+
+        this.name = name;
+        this.pin = pin
+    }
+    getName(): string {
+        return this.name;
+    }
+    verifyPinInput(): string {
+        return this.pin
+    }
+    
 }
+customer.getName()
+customer.verifyPinInput()
 
 
 
