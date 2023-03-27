@@ -1,4 +1,4 @@
-
+interface users { name: string, age:number}
 const prettyPrintWilder = (users : any) => {
   users.map((user: { name: any; age: any; }) => {
     console.log(`${user.name} is ${user.age} years old`);
