@@ -11,13 +11,11 @@ class BankCustomer {
     getName(): string {
         return this.name;
     }
-    verifyPinInput(): string {
-        return this.pin
+    verifyPinInput(pin: string): boolean  {
+        return this.pin === pin  
     }
     
 }
-customer.getName()
-customer.verifyPinInput()
 
 
 

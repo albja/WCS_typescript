@@ -9,8 +9,8 @@ var BankCustomer = /** @class */ (function () {
     BankCustomer.prototype.getName = function () {
         return this.name;
     };
-    BankCustomer.prototype.verifyPinInput = function () {
-        return this.pin;
+    BankCustomer.prototype.verifyPinInput = function (pin) {
+        return this.pin === pin;
     };
     return BankCustomer;
 }());
