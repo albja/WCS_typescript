@@ -5,7 +5,11 @@ const prettyPrintWilder = (users : any) => {
   });
 };
 
-const wilders = [];
+interface myObject {
+    name: string,
+    age: number
+}
+const wilders: myObject[] = [];
 const user1 = { name: "Pierre", age: 23 };
 const user2 = { name: "Paul", age: 33 };
 const user3 = { name: "Jacques", age: 25 };
